@@ -1,6 +1,6 @@
 <template>
   <div class="pokedex-page">
-    <div class="pokedex-cards">
+    <div class="container">
       <PokemonCard v-for="{id, name} in pokemonsPerPage" :key="id" :id="id" :name="name"/>
     </div>
   </div>
@@ -32,12 +32,8 @@ export default {
   justify-content: center;
 }
 
-.pokedex-cards{
-  display: flex;
-  justify-content: space-between;
+.container{
+  display: inline-flex;
   flex-wrap: wrap;
-  align-items: center;
-  padding: 0.5em;
 }
-
 </style>

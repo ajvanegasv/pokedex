@@ -40,7 +40,7 @@ export default {
   height: 13em;
   background-color: #372248;
   border-radius: 5px;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 5px 10px 5px;
   position: relative;
 }
 
