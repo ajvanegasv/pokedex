@@ -2,7 +2,7 @@ import {ref, computed} from "vue";
 
 export default function handlePagination(dataArr) {
   let page = ref(1);
-  const perPage = 20;
+  const perPage = 24;
   const buttonsViews = 6;
   const data = dataArr.map(({data}) => data);
 

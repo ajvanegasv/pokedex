@@ -9,6 +9,7 @@
         <li><b class="color-tag">id: </b> {{ id }}</li>
         <li><b class="color-tag">Name: </b> {{ name }}</li>
       </ul>
+      <button class="btn-modal">Info</button>
     </div>
   </div>
 </template>
@@ -91,6 +92,7 @@ export default {
 .descripcion{
   display: flex;
   justify-content: start;
+  flex-wrap: wrap;
 }
 
 .card-header{
@@ -112,5 +114,15 @@ ul{
 
 .color-tag{
   color: #5B85AA;
+}
+
+.btn-modal{
+  border-radius: 20px;
+  background-color: #F46036;
+  color: #fff;
+  height: 2em;
+  width: 3.5em;
+  border: 2px solid #fff;
+  margin-left: 3em;
 }
 </style>

@@ -35,5 +35,6 @@ export default {
 .container{
   display: inline-flex;
   flex-wrap: wrap;
+  max-width: 75em;
 }
 </style>
